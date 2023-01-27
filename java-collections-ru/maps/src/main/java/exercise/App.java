@@ -9,7 +9,7 @@ class App {
         Map<String, Integer> wordCount = new HashMap<>();
         String[] separatedSentence = sentence.split(" ");
         for (String l : separatedSentence) {
-            if(sentence.equals("")) {
+            if (sentence.equals("")) {
                 return wordCount;
             } else if (wordCount.containsKey(l)) {
                 wordCount.put(l, wordCount.get(l) + 1);
@@ -23,7 +23,7 @@ class App {
         String[] res = new String[wordCount.size()];
         int i = 0;
         String result = "{";
-        if(res.length == 0) {
+        if (res.length == 0) {
             return "{}";
         }
         for (Object s : wordCount.keySet()) {

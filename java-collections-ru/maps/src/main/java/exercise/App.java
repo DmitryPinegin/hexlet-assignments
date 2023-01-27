@@ -22,15 +22,18 @@ class App {
     public static String toString(Map wordCount) {
         String[] res = new String[wordCount.size()];
         int i = 0;
-        String result = "";
+        String result = "{";
+        if(res.length == 0) {
+            return "{}";
+        }
         for (Object s : wordCount.keySet()) {
-            res[i] = "\n" + "  " + s + ": " + wordCount.get(s) + "\n";
+            res[i] = "\n  " + s + ": " + wordCount.get(s);
             i++;
         }
         for (String r : res) {
             result += r;
         }
-        return  "\n  " + result + "  \n";
+        return  result + "\n}";
     }
 }
 //END

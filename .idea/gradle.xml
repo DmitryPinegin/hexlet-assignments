@@ -4,6 +4,26 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-7.4.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java-collections-ru/generics" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-7.4.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java-collections-ru/generics" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
@@ -23,6 +43,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/java-collections-ru/maps" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/java-collections-ru/tests" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../Gradle/gradle-7.4.2" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/java-collections-ru/tests" />
           </set>
         </option>
       </GradleProjectSettings>
